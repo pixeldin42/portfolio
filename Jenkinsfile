@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'git@github.com:YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git'
+                git branch: 'main', url: 'https://github.com/pixeldin42/portfolio.git'
             }
         }
 
